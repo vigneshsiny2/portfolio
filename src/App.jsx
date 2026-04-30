@@ -316,6 +316,7 @@ function App() {
         </div>
       </section>
 
+
       <hr className="divider" />
 
       <section id="about">
