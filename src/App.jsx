@@ -141,7 +141,7 @@ const projects = [
 ];
 
 const contactLinks = [
-  { href: "mailto:vigneshsiny2@gmail.com", label: "vigneshsiny2@gmail.com", icon: "mail" },
+  { href: "mailto:vignesha031@gmail.com", label: "vignesha031@gmail.com", icon: "mail" },
   { href: "tel:+917339009351", label: "+91 73390 09351", icon: "phone" },
   { href: "https://linkedin.com", label: "LinkedIn", icon: "linkedin", external: true },
 ];
@@ -242,7 +242,7 @@ function App() {
       return;
     }
 
-    const mailto = `mailto:vigneshsiny2@gmail.com?subject=${encodeURIComponent(
+    const mailto = `mailto:vignesha031@gmail.com?subject=${encodeURIComponent(
       `${subject} - from ${name}`,
     )}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`)}`;
 
@@ -355,7 +355,7 @@ function App() {
               </div>
               <div className="info-row">
                 <Icon name="mail" />
-                <a href="mailto:vigneshsiny2@gmail.com">vigneshsiny2@gmail.com</a>
+                <a href="mailto:vignesha031@gmail.com">vignesha031@gmail.com</a>
               </div>
               <div className="info-row">
                 <Icon name="linkedin" />
@@ -498,7 +498,7 @@ function App() {
             ))}
 
             <div className="contact-cta">
-              <a className="btn-primary" href="mailto:vigneshsiny2@gmail.com?subject=Portfolio%20Inquiry">
+              <a className="btn-primary" href="mailto:vignesha031@gmail.com?subject=Portfolio%20Inquiry">
                 <Icon name="mail" />
                 Email Directly
               </a>
